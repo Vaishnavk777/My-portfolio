@@ -1,0 +1,130 @@
+footer {
+ padding: 1rem 0;
+ background-color: #006793;
+ color:white;
+ font-weight: bold;
+ font-size: 20px;
+ position: relative;
+ bottom: 0;
+ left: 0;
+ width: 100%;
+ height: 20px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+header {
+ background-color:  #006793;
+ color: white;
+ font-weight: bold;
+ padding: 1 rem;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 70px;
+ text-align: center;
+ }
+h1 {
+ text-align: center;
+}
+main{
+ background: black;
+}
+.about {
+ text-align: center;
+ margin-bottom: 20px;  /* reduce bottom space */
+ padding: 10px 0; 
+}
+
+
+.about h2 {
+     font-size: 32px;
+ margin-bottom: 40px;
+ color: #12e0cf;
+ padding-left: 230px;
+}
+
+
+/* Flexbox Layout */
+.about-container {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 50px;
+ max-width: 1000px;
+ margin: auto;
+ text-align: left; /* align text neatly */
+}
+
+
+/* Profile Image */
+.about-img img {
+ width: 250px;
+ height: 250px;
+ border-radius: 50%;
+ object-fit: cover;
+ border: 5px solid #0da2cf;
+ box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+ }
+
+
+/* About Text */
+.about-text {
+ max-width: 600px;
+}
+
+
+.about-text p {
+ font-size: 17px;
+ line-height: 1.7;
+ margin-bottom: 20px;
+ color: white;
+}
+.down{
+ flex: 1;
+ text-align: left;
+}
+.table {
+ flex: 1; /* table takes more space */
+}
+.table table {
+ width: 100%;                /* stretch full width */
+ border-collapse: collapse;  /* clean borders */
+ margin-top: 15px;
+}
+
+
+.table th,
+.table td {
+ border: 2px solid white;    /* column & row borders */
+ padding: 10px;
+ text-align: center;
+ color: white;
+}
+
+
+.table th {
+ color: #ca2799;
+ font-weight: bold;
+}
+.skill li{
+ color: white;
+}
+.achieve li{
+ color: white;
+}
+.s{
+ color: #E76D57;
+ font-size: 32px;
+ padding-left: 20px;
+}
+.a{
+ color: #E76D57;
+ font-size: 32px;
+ padding-left: 20px;
+}
+.aca{
+    color: #ca2799;
+ font-size: 32px;
+ padding-left: 20px;
+}
